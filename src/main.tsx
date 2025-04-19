@@ -7,7 +7,7 @@ import { ThemeProvider } from "next-themes";
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
-		<ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+		<ThemeProvider attribute="class" defaultTheme="light">
 			<RouterProvider router={router} />
 		</ThemeProvider>
 	</StrictMode>

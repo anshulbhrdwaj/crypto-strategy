@@ -15,9 +15,9 @@ const Header = () => {
 		<header id="navbar" className="absolute inset-0 text-background">
 			<div className="flex-row-between padding z-40 sticky inset-0 screen-w-2xl">
 				{theme === "dark" ? (
-					<LogoLight className="h-10 w-60" />
+					<LogoLight className="h-8 w-40 lg:h-9 lg:w-45" />
 				) : (
-					<LogoDark className="h-10 w-60" />
+					<LogoDark className="h-8 w-40 lg:h-9 lg:w-45" />
 				)}
 				<HamburgerMenu isActive={isActive} setIsActive={setIsActive} />
 			</div>
