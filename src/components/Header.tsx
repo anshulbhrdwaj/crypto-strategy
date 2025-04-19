@@ -89,7 +89,7 @@ const Nav = ({ children }: { children: ReactNode }) => {
 					<p className="text-gradient uppercase text-sm z-10 relative top-0 w-60">
 						Menu
 					</p>
-					<p className="text-gradient text-sm z-20 relative -bottom-6 -left-42 w-60">
+					<p className="text-gradient text-sm z-20 relative -bottom-6 sm:-left-42 w-60">
 						Tarun Soni
 						<span className="block">Founder and CEO</span>
 						<span className="block pt-2 text-zinc-400 text-xs">CryptoStrategy</span>
@@ -98,7 +98,7 @@ const Nav = ({ children }: { children: ReactNode }) => {
 				</div>
 				<div
 					onMouseLeave={() => setSelectedIndicator(pathname)}
-					className="flex flex-col text-6xl gap-8"
+					className="flex flex-col text-4xl sm:text-6xl gap-6 sm:gap-8"
 				>
 					{navbar.links.map((navItem) => (
 						<NavLink
